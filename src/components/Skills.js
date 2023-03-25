@@ -34,6 +34,11 @@ const Skills = () => {
         'level': '75'
       },
       {
+        'name': 'MongoDB',
+        'class': 'devicon-mongodb-plain',
+        'level': '75'
+      },
+      {
         'name': 'PostgreSQL',
         'class': 'devicon-postgresql-plain',
         'level': '60'

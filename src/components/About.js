@@ -59,10 +59,10 @@ const About = () => {
                   <span role='img' aria-label='wave-emoji'>👋</span>
                   <br />
                   <br />
-                  I'm Kage Gamis. I work with Javascript frameworks like Node and React, as well as have proficiencies in Ruby on Rails. I have experiences building applications for large enterprises and startups, all of which are used regularly by thousands of consumers. I pride myself of building with purpose by first understanding the needs of the customer and the business, as well determining how to contribute best to a team, before setting off to code anything.
+                  I'm Kage Gamis. I work with Javascript frameworks like Node and React, as well as have proficiencies in Ruby on Rails. I have experiences building applications for large enterprises and startups, all of which are used regularly by thousands of consumers. I pride myself in building with purpose by first understanding the needs of the customer and the business, as well as determining how to contribute best to a team, before setting off to build anything. Additionally, I ensure that accessibility is at the forefront of the product evolution and an alignment is maintained between the target users and digital products in development.
                   <br />
                   <br />
-                  When I'm not building digital products, you will find me making <a target='_blank' rel='noopener noreferrer' href='https://www.tiktok.com/@honeybearmead'>mead</a>, tinkering with electronics, or taking apart furniture to make something new.
+                  When I'm not building digital products, you will find me making <a target='_blank' rel='noopener noreferrer' href='https://www.tiktok.com/@honeybearmead'>mead</a>, tinkering with electronics, or acquiring a new hobby.
                 </div>
               </div>
             </div>

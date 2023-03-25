@@ -9,6 +9,19 @@ import Badge from 'react-bootstrap/Badge'
 const resumeData = {
   'experience': [
     {
+      'company': 'Viability',
+      'title': 'Software Developer Consultant',
+      'years': 'February 2023 - present',
+      'mainTech': [
+        'React',
+        'Node',
+      ],
+      'technologies': [
+        'REST API',
+        'JavaScript'
+      ]
+    },
+    {
       'company': '#paid',
       'title': 'Full-Stack Developer',
       'years': 'September 2021 - January 2023',
