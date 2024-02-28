@@ -4,6 +4,7 @@
   "version": "1.1.0",
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gcloud app deploy",
     "dev": "npm run development",
     "development": "webpack serve --hot --mode development",
     "start": "webpack serve --hot --mode production",

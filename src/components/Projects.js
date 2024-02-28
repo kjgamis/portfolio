@@ -29,7 +29,7 @@ const resumeProjects = [
   {
     title: 'WiTalk',
     images: [witalkLogo, witalkMain],
-    url: 'https://witalk.co',
+    url: 'https://www.witalk.co',
     description: 'Connecting newcomers to interpreters',
     technologies: [
       {
