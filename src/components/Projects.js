@@ -4,12 +4,14 @@ import pawlertMain from '../assets/pawlert-main.png'
 import pawlertLogo from '../assets/pawlert-logo.png'
 import witalkMain from '../assets/witalk-main.png'
 import witalkLogo from '../assets/witalk-logo.png'
+import attnLogo from '../assets/attn-logo.png'
+import attnMain from '../assets/attn-main.gif'
 
 const resumeProjects = [
   {
     title: 'Pawlert',
     images: [pawlertLogo, pawlertMain],
-    url: 'https://pawlert.co',
+    url: 'https://github.com/kjgamis/pawlert',
     description: 'A smart tracking system that help dog owners spot potential risk of heat stroke based on real-time weather data and pet health data collected by a smart collar.',
     technologies: [
       {
@@ -29,7 +31,7 @@ const resumeProjects = [
   {
     title: 'WiTalk',
     images: [witalkLogo, witalkMain],
-    url: 'https://www.witalk.co',
+    url: 'https://github.com/kjgamis/witalk',
     description: 'Connecting newcomers to interpreters',
     technologies: [
       {
@@ -51,6 +53,30 @@ const resumeProjects = [
       {
         'name': 'CSS 3',
         'class': 'devicon-css3-plain',
+      }
+    ]
+  },
+  {
+    title: 'Attn',
+    images: [attnLogo, attnMain],
+    url: 'https://github.com/kjgamis/attn',
+    description: 'Send a message with a click of a button. Create a message that can be sent quickly without having to type the same message again.',
+    technologies: [
+      {
+        'name': 'Node (Express)',
+        'class': 'devicon-nodejs-plain',
+      },
+      {
+        'name': 'MongoDB',
+        'class': 'devicon-mongodb-plain',
+      },
+      {
+        'name': 'Google Cloud',
+        'class': 'devicon-googlecloud-plain',
+      },
+      {
+        'name': 'React Native',
+        'class': 'devicon-react-plain',
       }
     ]
   }
@@ -82,7 +108,6 @@ const Projects = () => {
                   height='230'
                   style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
                 />
-                {/* <span className='project-date'>{projects.startDate}</span> */}
                 <br />
                 <p className='project-title-settings mt-3'>
                   {projects.title}
@@ -101,7 +126,7 @@ const Projects = () => {
         <h1 className='section-title' style={{ color: 'black' }}>
           <span>Projects</span>
         </h1>
-        <div className='col-md-7 mx-auto'>
+        <div className='col-md-10 mx-auto'>
           <div className='row mx-auto'>{projects}</div>
         </div>
         <ProjectDetailsModal
