@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Typical from 'react-typical'
 import Switch from 'react-switch'
 
 const Header = () => {
@@ -18,13 +17,6 @@ const Header = () => {
     body.setAttribute(dataThemeAttribute, newTheme)
   }
 
-  const name = 'Kage Gamis'
-  const titles = ['Front-end Developer', 'Full-Stack Developer'].map(x => [x.toUpperCase(), 1500]).flat()
-
-  const HeaderTitleTypeAnimation = React.memo(() => {
-    return <Typical className='title-styles' steps={titles} loop={50} />
-  }, (props, prevProp) => true)
-
   return (
     <header id='home' style={{ height: window.innerHeight - 140, display: 'block' }}>
       <div className='row aligner' style={{ height: '100%' }}>
@@ -33,10 +25,10 @@ const Header = () => {
             <span className='iconify header-icon' data-icon='la:laptop-code' data-inline='false'></span>
             <br />
             <h1 className='mb-0'>
-              <Typical steps={[name]} wrapper='p' />
+              <p>Kage Gamis</p>
             </h1>
             <div className='title-container'>
-              <HeaderTitleTypeAnimation />
+              <div className='title-styles'>Software Developer</div>
             </div>
             <Switch
               checked={checked}
@@ -62,6 +54,7 @@ const Header = () => {
                 ></span>
               }
               checkedIcon={
+
                 <span
                   className='iconify'
                   data-icon='noto-v1:sun-with-face'

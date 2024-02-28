@@ -59,7 +59,7 @@ const About = () => {
                   <span role='img' aria-label='wave-emoji'>👋</span>
                   <br />
                   <br />
-                  I'm Kage Gamis. I work with Javascript frameworks like Node and React, as well as have proficiencies in Ruby on Rails. I have experiences building applications for large enterprises and startups, all of which are used regularly by thousands of consumers. I pride myself in building with purpose by first understanding the needs of the customer and the business, as well as determining how to contribute best to a team, before setting off to build anything. Additionally, I ensure that accessibility is at the forefront of the product evolution and an alignment is maintained between the target users and digital products in development.
+                  I am a passionate developer with a focus on backend development and infrastructure. My expertise lies in JavaScript frameworks like Node.js and React, alongside a strong command of C++. My approach to building software is centered around understanding customer and business needs thoroughly before diving into development, ensuring that my contributions align seamlessly with the business objectives.
                   <br />
                   <br />
                   When I'm not building digital products, you will find me making <a target='_blank' rel='noopener noreferrer' href='https://www.tiktok.com/@honeybearmead'>mead</a>, tinkering with electronics, or acquiring a new hobby.

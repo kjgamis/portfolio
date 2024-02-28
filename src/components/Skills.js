@@ -4,13 +4,13 @@ const Skills = () => {
   const portfolioData = {
     icons: [
       {
-        'name': 'HTML 5',
-        'class': 'devicon-html5-plain',
+        'name': 'C++',
+        'class': 'devicon-cplusplus-plain',
         'level': '95'
       },
       {
-        'name': 'CSS 3',
-        'class': 'devicon-css3-plain',
+        'name': 'C',
+        'class': 'devicon-c-plain',
         'level': '95'
       },
       {
@@ -42,6 +42,26 @@ const Skills = () => {
         'name': 'PostgreSQL',
         'class': 'devicon-postgresql-plain',
         'level': '60'
+      },
+      {
+        'name': 'Cloudflare',
+        'class': 'devicon-cloudflare-plain',
+        'level': '60'
+      },
+      {
+        'name': 'Google Cloud',
+        'class': 'devicon-googlecloud-plain',
+        'level': '60'
+      },
+      {
+        'name': 'HTML 5',
+        'class': 'devicon-html5-plain',
+        'level': '95'
+      },
+      {
+        'name': 'CSS 3',
+        'class': 'devicon-css3-plain',
+        'level': '95'
       }
     ]
   }

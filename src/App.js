@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './components/About'
 import Experience from './components/Experience'
-// import Projects from './components/Projects'
+import Projects from './components/Projects'
 import Skills from './components/Skills'
 
 import ReactGA from 'react-ga'
@@ -18,10 +18,7 @@ const App = () => {
       <About />
       <Experience />
       <Skills />
-      {/* <Projects
-        resumeProjects={resumeData.projects}
-        resumeBasicInfo={resumeData.basic_info}
-      /> */}
+      <Projects />
       <Footer />
     </div>
   )
