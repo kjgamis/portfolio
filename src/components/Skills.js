@@ -72,7 +72,7 @@ const Skills = () => {
           <div className='text-center skills-tile'>
             <i className={skill.class} style={{ fontSize: '220%' }}>
               <p
-                className='text-center'
+                className='text-center font-trebuchet'
                 style={{ fontSize: '30%', marginTop: '4px' }}
               >
                 {skill.name}
