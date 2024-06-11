@@ -2,6 +2,18 @@ body[data-theme='dark'] {
 
    @import '../dark-slider.scss';
 
+  nav {
+    background-color: #494949;
+  }
+
+  .navbar-brand {
+    color: #FFFFFF;
+  }
+
+  .navbar-nav a {
+    color: #FFFFFF !important;
+  }
+
    .slider-tab {
       background-color: #8C8C8C;
    }
@@ -32,7 +44,7 @@ body[data-theme='dark'] {
       color: white;
    }
 
-   header {
+   #home {
       background-color: #494949;
       h1 {
          color: white;
@@ -66,7 +78,7 @@ body[data-theme='dark'] {
       }
    }
 
-   #resume {
+   #experience {
       filter: brightness(80%);
       background: #5b5b5b;
       .section-title {

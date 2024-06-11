@@ -3,10 +3,10 @@ import profileImg from '../assets/profile.jpg'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' style={{ height: window.innerHeight - 225 }}>
       <div className='col-md-12'>
-        <h1 style={{ color: 'black' }}>
-          <span>About Me</span>
+        <h1>
+          About Me
         </h1>
         <div className='row center mx-auto mb-5'>
           <div className='col-md-4 mb-5 center'>

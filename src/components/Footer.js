@@ -10,7 +10,7 @@ const Footer = () => {
       },
       {
         'name': 'linkedin',
-        'url': 'https://www.linkedin/in/kjgamis',
+        'url': 'https://www.linkedin.com/in/kjgamis/',
         'class': 'fab fa-linkedin'
       }
     ]

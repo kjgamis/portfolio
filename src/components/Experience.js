@@ -107,13 +107,11 @@ const Experience = () => {
     })
 
   return (
-    <section id='experience' className='pb-5'>
-      <div className='col-md-12 mx-auto'>
+    <section id='experience'>
+      <div className='col-md-12 m-auto'>
         <div className='col-md-12'>
-          <h1 className='section-title' style={{ color: 'black' }}>
-            <span className='text-black' style={{ textAlign: 'center' }}>
-              Experience
-            </span>
+          <h1 className='section-title'>
+            Experience
           </h1>
         </div>
       </div>
