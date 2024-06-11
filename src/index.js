@@ -1,7 +1,12 @@
 import React, { StrictMode } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Link
+} from 'react-router-dom'
+import router from './router'
 import './index.scss'
-import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 /* GLOBAL VARIABLES */
@@ -9,9 +14,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 window.$primaryLanguage = 'en'
 window.$primaryLanguageIconId = 'primary-lang-icon'
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>
 )

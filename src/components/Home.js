@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Switch from 'react-switch'
 
-const Header = () => {
+const Home = () => {
   const [checked, setChecked] = useState(false)
 
   const onThemeSwitchChange = (checked) => {
@@ -18,7 +18,7 @@ const Header = () => {
   }
 
   return (
-    <header id='home' style={{ height: window.innerHeight - 140, display: 'block' }}>
+    <div id='home' style={{ height: window.innerHeight - 140, display: 'block' }}>
       <div className='row aligner' style={{ height: '100%' }}>
         <div className='col-md-12'>
           <div>
@@ -34,7 +34,7 @@ const Header = () => {
               checked={checked}
               onChange={onThemeSwitchChange}
               offColor='#353239'
-              onColor='#353535'
+              onColor='#BBBBBB'
               className='react-switch mx-auto'
               width={90}
               height={40}
@@ -74,8 +74,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   )
 }
 
-export default Header
+export default Home
