@@ -4,14 +4,13 @@ body[data-theme='dark'] {
 
   nav {
     background-color: #494949;
+    a {
+      color: #FFFFFF !important;
+    }
   }
 
   .navbar-brand {
     color: #FFFFFF;
-  }
-
-  .navbar-nav a {
-    color: #FFFFFF !important;
   }
 
    .slider-tab {
@@ -53,7 +52,7 @@ body[data-theme='dark'] {
 
    #about {
       background-color: #7f7f7f;
-      h1 span {
+      h1 {
          color: white;
       }
       .polaroid span {
@@ -107,6 +106,13 @@ body[data-theme='dark'] {
          }
       }
    }
+
+  #gallery {
+    background: #5b5b5b;
+    h1 {
+      color: white;
+    }
+  }
 
    .modal-inside .modal-content {
       background: #5b5b5b;
