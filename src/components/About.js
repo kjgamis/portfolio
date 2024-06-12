@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id='about' style={{ height: window.innerHeight - 225 }}>
       <div className='col-md-12'>
-        <h1>
+        <h1 className='section-title'>
           About Me
         </h1>
         <div className='row center mx-auto mb-5'>

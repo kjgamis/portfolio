@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Gallery from "./components/Gallery";
 import Page from './components/templates/Page';
 import React from 'react';
 
@@ -15,12 +16,6 @@ const router = createBrowserRouter([
     </Page>,
   },
   {
-    path: 'about',
-    element: <Page>
-      <About />
-    </Page>,
-  },
-  {
     path: 'resume',
     element: <Page>
       <Experience />
@@ -28,6 +23,18 @@ const router = createBrowserRouter([
       <Projects />
     </Page>
   },
+  {
+    path: 'about',
+    element: <Page>
+      <About />
+    </Page>
+  },
+  {
+    path: 'gallery',
+    element: <Page>
+      <Gallery />
+    </Page>
+  }
 ])
 
 export default router
