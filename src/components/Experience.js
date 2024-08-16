@@ -9,6 +9,20 @@ import Badge from 'react-bootstrap/Badge'
 const resumeData = {
   'experience': [
     {
+      'company': 'University Health Network - Cancer Digital Intelligence',
+      'title': 'Software Developer',
+      'years': 'May 2024 - August 2024',
+      'mainTech': [
+        'NestJS',
+        'React'
+      ],
+      'technologies': [
+        'TypeScript',
+        'MongoDB',
+        'Rest API',
+      ]
+    },
+    {
       'company': '#paid',
       'title': 'Front-end Developer',
       'years': 'September 2021 - January 2023',
@@ -50,7 +64,7 @@ const resumeData = {
       'technologies': [
         'JavaScript'
       ]
-    }
+    },
   ]
 }
 
