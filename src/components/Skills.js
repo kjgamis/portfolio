@@ -19,6 +19,11 @@ const Skills = () => {
         'level': '70'
       },
       {
+        'name': 'TypeScript',
+        'class': 'devicon-typescript-plain',
+        'level': '70'
+      },
+      {
         'name': 'React',
         'class': 'devicon-react-original',
         'level': '70'
@@ -26,6 +31,16 @@ const Skills = () => {
       {
         'name': 'Node',
         'class': 'devicon-nodejs-plain',
+        'level': '70'
+      },
+      {
+        'name': 'Express',
+        'class': 'devicon-express-original',
+        'level': '70'
+      },
+      {
+        'name': 'NestJS',
+        'class': 'devicon-nestjs-plain',
         'level': '70'
       },
       {
