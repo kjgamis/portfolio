@@ -1,14 +1,14 @@
-runtime: nodejs18
+runtime: nodejs20
 service: default
 
 handlers:
 - url: /static
   static_dir: build
 
-- url: /(.*\.(css|js|png|jpg|jpeg|ico|svg))$
+- url: /(.*\.(css|js|png|jpg|jpeg|ico|svg|gif))$
   static_files: build/\1
-  upload: build/.*\.(css|js|png|jpg|jpeg|ico|svg)$
+  upload: build/.*\.(css|js|png|jpg|jpeg|ico|svg|gif)$
 
-- url: /
+- url: /.*
   static_files: build/index.html
   upload: build/index.html

@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     </Page>,
   },
   {
-    path: 'resume',
+    path: '/resume',
     element: <Page>
       <Experience />
       <Skills />
@@ -24,13 +24,13 @@ const router = createBrowserRouter([
     </Page>
   },
   {
-    path: 'about',
+    path: '/about',
     element: <Page>
       <About />
     </Page>
   },
   {
-    path: 'gallery',
+    path: '/gallery',
     element: <Page>
       <Gallery />
     </Page>

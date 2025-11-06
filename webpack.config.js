@@ -54,5 +54,9 @@ module.exports = {
       filename: 'index.html',
       favicon: path.join(__dirname, 'src/assets/favicon.ico')
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true,
+    hot: true
+  }
 }
