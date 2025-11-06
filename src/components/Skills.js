@@ -64,6 +64,11 @@ const Skills = () => {
         'level': '60'
       },
       {
+        'name': 'Amazon Web Services',
+        'class': 'devicon-amazonwebservices-plain-wordmark',
+        'level': '60'
+      },
+      {
         'name': 'Google Cloud',
         'class': 'devicon-googlecloud-plain',
         'level': '60'
